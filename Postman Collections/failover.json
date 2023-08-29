@@ -7,6 +7,20 @@
 	"item": [
 		{
 			"name": "echo req",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b0f5a585-641a-498f-a7ac-e47123d3c166",
+						"exec": [
+							"// updated the tests",
+							"// haha",
+							"// hello hhh"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "1302d176-a80b-4370-855d-2d1bc887197e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
