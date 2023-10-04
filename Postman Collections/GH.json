@@ -2,7 +2,8 @@
 	"info": {
 		"_postman_id": "fc2029ff-0b92-49a0-b800-64b7b5021a7d",
 		"name": "test GH issue",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "7811183"
 	},
 	"item": [
 		{
@@ -14,7 +15,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "c6c7cf10-7db6-45a9-9b9b-4e02af0045f2",
 								"exec": [
 									"var schema = {",
 									"    \"items\": {",
@@ -41,10 +41,6 @@
 							}
 						}
 					],
-					"id": "ba5e537b-9852-4eec-8560-9d42e3ad5aa0",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -52,8 +48,7 @@
 					},
 					"response": []
 				}
-			],
-			"id": "7ed78311-3212-4397-aa2c-19023502f1dd"
+			]
 		},
 		{
 			"name": "R1",
@@ -61,7 +56,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "4daaca83-39ad-4058-93e8-8f38dfff9836",
 						"exec": [
 							"pm.test(\"Body matches string\", function () {",
 							"    pm.expect(pm.response.text()).to.include(\"string_you_want_to_search\");",
@@ -81,10 +75,6 @@
 					}
 				}
 			],
-			"id": "592ba36a-3b63-4575-af30-ac632efda866",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
 				"method": "GET",
 				"header": [],
